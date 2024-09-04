@@ -1,0 +1,47 @@
+/* Home.css */
+
+.hero-section {
+    background: url('../../assets/Home.jpg') center/cover no-repeat;
+    border-radius: 8px;
+  }
+  
+  .category-card {
+    background-color: #f8f9fa;
+    border: none;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px 10px;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-btn {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #6c757d;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    padding: 5px 15px;
+  }
+  
+  .category-btn:hover {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+  }
+.food{
+    background-image:url(../../assets/img1.jpg);
+    
+}
+.Technology{
+    background-image:url(../../assets/img2.jpg);
+}
+.travel{
+    background-image:url(../../assets/img3.jpg);
+}
+.health{
+    background-image:url(../../assets/img1.jpg);
+}

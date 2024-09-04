@@ -1,0 +1,51 @@
+/* About.css */
+
+.about-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .learn-more-btn {
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  
+  .team-card {
+    border: none;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+.rounded{
+    height: 80vh;
+    margin: 10px;
+}  
